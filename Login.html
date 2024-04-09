@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+    </head>
+    <body>
+      <div class="mainCard">
+        <button class="btnRegister" onclick="registerForm()">Register</button>
+        <h1 class="title">Cool App</h1>
+        <img class="profilePic" src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80">
+        <input class ="inputMail" type="email" placeholder="Email">
+        <input class = "inputPassword"type="password" placeholder="Password">
+        <button class="btnEnter" onclick="logIn()">Enter</button>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+      function registerForm(){
+      document.getElementsByClassName('btnRegister')[0].innerHTML = "Login";
+      document.getElementsByClassName('title')[0].innerHTML = "Register to Cool App";
+      document.getElementsByClassName('inputMail')[0].placeholder = "Enter your email";
+      document.getElementsByClassName('inputPassword')[0].placeholder = "Enter your password";
+       document.getElementsByClassName('btnEnter')[0].innerHTML  = "Register";
+       }
+      function logIn(){
+        Swal.fire({
+        position: 'mid',
+        icon: 'success',
+        title: 'Welcome to the Cool App',
+        showConfirmButton: false,
+        timer: 1500
+      })
+        }
+    </script>
+</html>

@@ -1,0 +1,75 @@
+body{
+    color:white;
+    font-family: sans-serif;
+    background-image: url(https://res.cloudinary.com/codier/image/upload/v1584455527/wyhgo45zlqaslhicdftj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* main-nav,main-logo and main-footer */
+  
+  .main-nav{
+    display: flex;
+    word-wrap: no-wrap;
+  }
+  
+  .main-logo a,
+  .main-nav li,
+  .main-nav a{
+    list-style: none;
+    text-decoration:none;
+    
+    
+  }
+  .main-nav a{
+    color: #fff;
+    
+  }
+  .main-logo a{
+    color: white;
+  }
+  .main-nav li{
+   
+  }
+  .main-nav a:hover{
+    color: white;
+  }
+  .main-nav li:hover {
+    display: block;
+    padding:15px;
+    background-color:#84BD27;
+    
+  
+  }
+  .main-nav li,
+  .main-logo
+  {
+    
+    border-radius: 5px;
+  
+  }
+  .main-logo{
+  background-color: #84BD27;
+  padding: 15px;
+    
+  }
+  .main-nav li{
+    justify-content: space-between;
+    margin-left: 22px;
+    align-self: center;
+  }
+  .primary-header{
+    color: #70A715;
+  }
+  .main-footer{
+     padding-top: 250px;
+    
+    display: flex;
+    color:#70A715;
+    
+  }
+  .footer-par{
+   
+  margin-left:50%;
+   
+   
+  }
